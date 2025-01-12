@@ -1,0 +1,30 @@
+{
+  "extends": "plasmo/templates/tsconfig.base",
+  "exclude": [
+    "node_modules"
+  ],
+  "include": [
+    ".plasmo/index.d.ts",
+    "next-env.d.ts",
+    "window.d.ts",
+    "./**/*.ts",
+    "./**/*.tsx",
+    ".next/types/**/*.ts"
+, "src/lib/utils.js"  ],
+  "compilerOptions": {
+    "paths": {
+      // "~*": [
+      //   "./src/*"
+      // ],
+      "@/*": ["./src/*"]
+    },
+    "verbatimModuleSyntax": false,
+    "baseUrl": ".",
+    "isolatedModules": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
+  }
+}
