@@ -1,13 +1,9 @@
 # README
 
 
-<video width="560" height="315" controls>
 
- <source src="docs/typetap-taobao.mp4" type="video/mp4">
+https://github.com/user-attachments/assets/1efd0bbb-c8e7-4d0a-90d5-07ce259f4950
 
- 您的浏览器不支持视频播放。
-
-</video>
 
 
 ## 使用方法
